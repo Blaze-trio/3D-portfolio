@@ -13,6 +13,12 @@ export default defineConfig({
   },
   assetsInclude: ['**/*.glb', '**/*.gltf'],
   optimizeDeps: {
-    include: ['@react-three/fiber', '@react-three/drei', '@react-spring/three']
+    include: ['@react-three/fiber', '@react-three/drei', '@react-spring/three'],
+    force: true
+  },
+  server: {
+    fs: {
+      strict: false
+    }
   }
 })
