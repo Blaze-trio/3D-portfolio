@@ -8,11 +8,11 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/3d-portfolio/',
+  base: '/3D-portfolio/',
   css: {
     postcss: {},
   },
-  assetsInclude: ['**/*.glb', '**/*.gltf'],
+  assetsInclude: ['**/*.glb', '**/*.gltf', '**/*.mp3'],
   optimizeDeps: {
     include: ['@react-three/fiber', '@react-three/drei', '@react-spring/three'],
     force: true
