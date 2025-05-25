@@ -11,5 +11,8 @@ export default defineConfig({
   css: {
     postcss: {},
   },
-  assetsInclude: ['**/*.glb'],
+  assetsInclude: ['**/*.glb', '**/*.gltf'],
+  optimizeDeps: {
+    include: ['@react-three/fiber', '@react-three/drei', '@react-spring/three']
+  }
 })
