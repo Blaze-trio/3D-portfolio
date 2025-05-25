@@ -21,5 +21,10 @@ export default defineConfig({
     fs: {
       strict: false
     }
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false
   }
 })
