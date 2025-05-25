@@ -1,7 +1,8 @@
 import React from 'react'
-import{Route,BrowserRouter as Router,Routes} from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import {Home,About,Contact,Projects} from './pages';
+import { Home, About, Contact, Projects } from './pages';
+
 const App = () => {
   return (
     <main className="bg-slate-300/20">
