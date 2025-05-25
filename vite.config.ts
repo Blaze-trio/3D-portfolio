@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: '/3d-portfolio/',
   css: {
     postcss: {},
   },

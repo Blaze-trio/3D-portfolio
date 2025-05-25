@@ -17,7 +17,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Unemployed GANG <br /> sad
+          Unemployed GANG which is why I made this                <br /> sad
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
@@ -32,7 +32,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          Wanna See my projects coming soon.   <br /> Curious about the impact?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
